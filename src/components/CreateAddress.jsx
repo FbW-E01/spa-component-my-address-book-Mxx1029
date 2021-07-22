@@ -36,7 +36,7 @@ class CreateAddress extends React.Component {
     render() {
         console.log("CreateAddress render function is running")
         return (
-            <Form 
+            <Form className="mb-5"
             onSubmit={this.handleSubmit}
             >
                 <Form.Group as={Row} className="mb-4" controlId="formHorizontalName">
